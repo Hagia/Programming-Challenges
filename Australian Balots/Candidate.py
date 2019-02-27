@@ -1,16 +1,16 @@
-class candidate:
-  def _init_(self, name):
+class Candidate:
+  def __init__(self, name):
     self.name = name
     self.count = 0
   
-  def increaseCount(self)
+  def increaseCount(self):
     self.count +=1
     
-  def getCount(self)
-    return count
+  def getCount(self):
+    return self.count
     
-  def getName(self)
+  def getName(self):
     return self.name
   
-  def print(self)
-    print(self.name + " " + self.count)
+  def println(self):
+    print(self.name + str(self.count))
